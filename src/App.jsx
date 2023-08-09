@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className="w-full h-screen relative bg-black bg-opacity-40 text-white app">
+    <div className="w-full relative bg-black bg-opacity-40 text-white app">
       <div className="text-center p-[1rem]">
         <input
           className="p-[0.7rem 1.5rem] text-black text-lg rounded-xl border border-opacity-80 bg-opacity-80 bg-white placeholder-py-2 px-4 py-2"
@@ -54,7 +54,7 @@ function App() {
           </div>
         </div>
         {data.name != undefined && (
-          <div className="flex justify-evenly items-center text-center w-full my-4 p-4 rounded-lg bg-opacity-20 bg-white mb-32">
+          <div className="flex justify-evenly items-center text-center w-full my-4 p-4 rounded-lg bg-opacity-20 bg-white">
             <div>
               {data.main ? (
                 <p className="text-[1.6rem] font-bold">
